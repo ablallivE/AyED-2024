@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\0_Villalba_CalculadoraBasica\0_Villalba_CalculadoraBasica\bin\Debug\0_Villalba_CalculadoraBasica.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\0_Villalba_CalculadoraBasica\0_Villalba_CalculadoraBasica\obj\Debug\0_Villalba_CalculadoraBasica.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\0_Villalba_CalculadoraBasica\0_Villalba_CalculadoraBasica\bin\Debug\0_Villalba_CalculadoraBasica.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\0_Villalba_CalculadoraBasica\0_Villalba_CalculadoraBasica\bin\Debug\0_Villalba_CalculadoraBasica.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\0_Villalba_CalculadoraBasica\0_Villalba_CalculadoraBasica\obj\Debug\0_Villalba_CalculadoraBasica.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\0_Villalba_CalculadoraBasica\0_Villalba_CalculadoraBasica\obj\Debug\0_Villalba_CalculadoraBasica.pdb

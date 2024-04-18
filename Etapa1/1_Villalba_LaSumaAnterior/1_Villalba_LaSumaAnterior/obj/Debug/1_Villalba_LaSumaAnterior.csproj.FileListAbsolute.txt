@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\1_Villalba_LaSumaAnterior\1_Villalba_LaSumaAnterior\bin\Debug\1_Villalba_LaSumaAnterior.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\1_Villalba_LaSumaAnterior\1_Villalba_LaSumaAnterior\obj\Debug\1_Villalba_LaSumaAnterior.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\1_Villalba_LaSumaAnterior\1_Villalba_LaSumaAnterior\bin\Debug\1_Villalba_LaSumaAnterior.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\1_Villalba_LaSumaAnterior\1_Villalba_LaSumaAnterior\bin\Debug\1_Villalba_LaSumaAnterior.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\1_Villalba_LaSumaAnterior\1_Villalba_LaSumaAnterior\obj\Debug\1_Villalba_LaSumaAnterior.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\1_Villalba_LaSumaAnterior\1_Villalba_LaSumaAnterior\obj\Debug\1_Villalba_LaSumaAnterior.pdb
