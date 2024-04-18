@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\2_Villalba_BienvenidoACiudad\2_Villalba_BienvenidoACiudad\bin\Debug\2_Villalba_BienvenidoACiudad.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\2_Villalba_BienvenidoACiudad\2_Villalba_BienvenidoACiudad\bin\Debug\2_Villalba_BienvenidoACiudad.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\2_Villalba_BienvenidoACiudad\2_Villalba_BienvenidoACiudad\bin\Debug\2_Villalba_BienvenidoACiudad.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\2_Villalba_BienvenidoACiudad\2_Villalba_BienvenidoACiudad\obj\Debug\2_Villalba_BienvenidoACiudad.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\2_Villalba_BienvenidoACiudad\2_Villalba_BienvenidoACiudad\obj\Debug\2_Villalba_BienvenidoACiudad.pdb

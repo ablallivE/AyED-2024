@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\3_Villalba_DimensionesDeEsfera\3_Villalba_DimensionesDeEsfera\bin\Debug\3_Villalba_DimensionesDeEsfera.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\3_Villalba_DimensionesDeEsfera\3_Villalba_DimensionesDeEsfera\bin\Debug\3_Villalba_DimensionesDeEsfera.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\3_Villalba_DimensionesDeEsfera\3_Villalba_DimensionesDeEsfera\bin\Debug\3_Villalba_DimensionesDeEsfera.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\3_Villalba_DimensionesDeEsfera\3_Villalba_DimensionesDeEsfera\obj\Debug\3_Villalba_DimensionesDeEsfera.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\3_Villalba_DimensionesDeEsfera\3_Villalba_DimensionesDeEsfera\obj\Debug\3_Villalba_DimensionesDeEsfera.pdb
