@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\6_Villalba_TablaDeMultiplicar\6_Villalba_TablaDeMultiplicar\bin\Debug\6_Villalba_TablaDeMultiplicar.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\6_Villalba_TablaDeMultiplicar\6_Villalba_TablaDeMultiplicar\bin\Debug\6_Villalba_TablaDeMultiplicar.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\6_Villalba_TablaDeMultiplicar\6_Villalba_TablaDeMultiplicar\bin\Debug\6_Villalba_TablaDeMultiplicar.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\6_Villalba_TablaDeMultiplicar\6_Villalba_TablaDeMultiplicar\obj\Debug\6_Villalba_TablaDeMultiplicar.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\6_Villalba_TablaDeMultiplicar\6_Villalba_TablaDeMultiplicar\obj\Debug\6_Villalba_TablaDeMultiplicar.pdb

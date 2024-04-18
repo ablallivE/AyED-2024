@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\5_Villalba_ValorDouble\5_Villalba_ValorDouble\bin\Debug\5_Villalba_ValorDouble.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\5_Villalba_ValorDouble\5_Villalba_ValorDouble\bin\Debug\5_Villalba_ValorDouble.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\5_Villalba_ValorDouble\5_Villalba_ValorDouble\bin\Debug\5_Villalba_ValorDouble.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\5_Villalba_ValorDouble\5_Villalba_ValorDouble\obj\Debug\5_Villalba_ValorDouble.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\5_Villalba_ValorDouble\5_Villalba_ValorDouble\obj\Debug\5_Villalba_ValorDouble.pdb
