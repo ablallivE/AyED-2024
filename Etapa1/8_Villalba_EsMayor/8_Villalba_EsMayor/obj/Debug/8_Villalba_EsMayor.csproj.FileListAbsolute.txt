@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\8_Villalba_EsMayor\8_Villalba_EsMayor\bin\Debug\8_Villalba_EsMayor.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\8_Villalba_EsMayor\8_Villalba_EsMayor\bin\Debug\8_Villalba_EsMayor.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\8_Villalba_EsMayor\8_Villalba_EsMayor\bin\Debug\8_Villalba_EsMayor.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\8_Villalba_EsMayor\8_Villalba_EsMayor\obj\Debug\8_Villalba_EsMayor.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\8_Villalba_EsMayor\8_Villalba_EsMayor\obj\Debug\8_Villalba_EsMayor.pdb

@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\7_Villalba_AlReves\7_Villalba_AlReves\bin\Debug\7_Villalba_AlReves.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\7_Villalba_AlReves\7_Villalba_AlReves\bin\Debug\7_Villalba_AlReves.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\7_Villalba_AlReves\7_Villalba_AlReves\bin\Debug\7_Villalba_AlReves.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\7_Villalba_AlReves\7_Villalba_AlReves\obj\Debug\7_Villalba_AlReves.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\7_Villalba_AlReves\7_Villalba_AlReves\obj\Debug\7_Villalba_AlReves.pdb
