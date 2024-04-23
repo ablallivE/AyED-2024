@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\12_Villalba_CobrarBeca\12_Villalba_CobrarBeca\bin\Debug\12_Villalba_CobrarBeca.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\12_Villalba_CobrarBeca\12_Villalba_CobrarBeca\bin\Debug\12_Villalba_CobrarBeca.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\12_Villalba_CobrarBeca\12_Villalba_CobrarBeca\bin\Debug\12_Villalba_CobrarBeca.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\12_Villalba_CobrarBeca\12_Villalba_CobrarBeca\obj\Debug\12_Villalba_CobrarBeca.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\12_Villalba_CobrarBeca\12_Villalba_CobrarBeca\obj\Debug\12_Villalba_CobrarBeca.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\12_Villalba_CobrarBeca\12_Villalba_CobrarBeca\obj\Debug\12_Villalba_CobrarBeca.csprojResolveAssemblyReference.cache
