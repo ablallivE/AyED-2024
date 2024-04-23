@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\13_Villalba_DiezVeces\13_Villalba_DiezVeces\bin\Debug\13_Villalba_DiezVeces.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\13_Villalba_DiezVeces\13_Villalba_DiezVeces\bin\Debug\13_Villalba_DiezVeces.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\13_Villalba_DiezVeces\13_Villalba_DiezVeces\bin\Debug\13_Villalba_DiezVeces.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\13_Villalba_DiezVeces\13_Villalba_DiezVeces\obj\Debug\13_Villalba_DiezVeces.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\13_Villalba_DiezVeces\13_Villalba_DiezVeces\obj\Debug\13_Villalba_DiezVeces.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\13_Villalba_DiezVeces\13_Villalba_DiezVeces\obj\Debug\13_Villalba_DiezVeces.pdb
