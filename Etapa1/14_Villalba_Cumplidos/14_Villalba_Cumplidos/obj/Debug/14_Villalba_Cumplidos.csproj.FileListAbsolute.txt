@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\14_Villalba_Cumplidos\14_Villalba_Cumplidos\bin\Debug\14_Villalba_Cumplidos.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\14_Villalba_Cumplidos\14_Villalba_Cumplidos\bin\Debug\14_Villalba_Cumplidos.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\14_Villalba_Cumplidos\14_Villalba_Cumplidos\bin\Debug\14_Villalba_Cumplidos.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\14_Villalba_Cumplidos\14_Villalba_Cumplidos\obj\Debug\14_Villalba_Cumplidos.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\14_Villalba_Cumplidos\14_Villalba_Cumplidos\obj\Debug\14_Villalba_Cumplidos.pdb

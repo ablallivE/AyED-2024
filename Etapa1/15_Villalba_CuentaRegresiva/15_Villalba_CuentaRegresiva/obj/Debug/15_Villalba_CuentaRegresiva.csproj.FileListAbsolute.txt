@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\15_Villalba_CuentaRegresiva\15_Villalba_CuentaRegresiva\bin\Debug\15_Villalba_CuentaRegresiva.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\15_Villalba_CuentaRegresiva\15_Villalba_CuentaRegresiva\bin\Debug\15_Villalba_CuentaRegresiva.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\15_Villalba_CuentaRegresiva\15_Villalba_CuentaRegresiva\bin\Debug\15_Villalba_CuentaRegresiva.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\15_Villalba_CuentaRegresiva\15_Villalba_CuentaRegresiva\obj\Debug\15_Villalba_CuentaRegresiva.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\15_Villalba_CuentaRegresiva\15_Villalba_CuentaRegresiva\obj\Debug\15_Villalba_CuentaRegresiva.pdb
