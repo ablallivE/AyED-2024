@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\16_Villalba_FizzBuzz\16_Villalba_FizzBuzz\bin\Debug\16_Villalba_FizzBuzz.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\16_Villalba_FizzBuzz\16_Villalba_FizzBuzz\bin\Debug\16_Villalba_FizzBuzz.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\16_Villalba_FizzBuzz\16_Villalba_FizzBuzz\bin\Debug\16_Villalba_FizzBuzz.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\16_Villalba_FizzBuzz\16_Villalba_FizzBuzz\obj\Debug\16_Villalba_FizzBuzz.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\16_Villalba_FizzBuzz\16_Villalba_FizzBuzz\obj\Debug\16_Villalba_FizzBuzz.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\16_Villalba_FizzBuzz\16_Villalba_FizzBuzz\obj\Debug\16_Villalba_FizzBuzz.pdb
