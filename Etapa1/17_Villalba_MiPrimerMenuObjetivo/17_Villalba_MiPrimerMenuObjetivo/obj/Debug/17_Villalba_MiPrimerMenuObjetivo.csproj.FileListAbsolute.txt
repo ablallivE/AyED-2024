@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\17_Villalba_MiPrimerMenuObjetivo\17_Villalba_MiPrimerMenuObjetivo\bin\Debug\17_Villalba_MiPrimerMenuObjetivo.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\17_Villalba_MiPrimerMenuObjetivo\17_Villalba_MiPrimerMenuObjetivo\bin\Debug\17_Villalba_MiPrimerMenuObjetivo.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\17_Villalba_MiPrimerMenuObjetivo\17_Villalba_MiPrimerMenuObjetivo\bin\Debug\17_Villalba_MiPrimerMenuObjetivo.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\17_Villalba_MiPrimerMenuObjetivo\17_Villalba_MiPrimerMenuObjetivo\obj\Debug\17_Villalba_MiPrimerMenuObjetivo.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\17_Villalba_MiPrimerMenuObjetivo\17_Villalba_MiPrimerMenuObjetivo\obj\Debug\17_Villalba_MiPrimerMenuObjetivo.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\17_Villalba_MiPrimerMenuObjetivo\17_Villalba_MiPrimerMenuObjetivo\obj\Debug\17_Villalba_MiPrimerMenuObjetivo.pdb
