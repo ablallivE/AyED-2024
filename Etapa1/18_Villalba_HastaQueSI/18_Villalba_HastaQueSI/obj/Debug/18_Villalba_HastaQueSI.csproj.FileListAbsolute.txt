@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\18_Villalba_HastaQueSI\18_Villalba_HastaQueSI\bin\Debug\18_Villalba_HastaQueSI.exe.config
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\18_Villalba_HastaQueSI\18_Villalba_HastaQueSI\bin\Debug\18_Villalba_HastaQueSI.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\18_Villalba_HastaQueSI\18_Villalba_HastaQueSI\bin\Debug\18_Villalba_HastaQueSI.pdb
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\18_Villalba_HastaQueSI\18_Villalba_HastaQueSI\obj\Debug\18_Villalba_HastaQueSI.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\18_Villalba_HastaQueSI\18_Villalba_HastaQueSI\obj\Debug\18_Villalba_HastaQueSI.exe
+C:\Users\alumno.ET37\Desktop\Villalba2024\Etapa1\18_Villalba_HastaQueSI\18_Villalba_HastaQueSI\obj\Debug\18_Villalba_HastaQueSI.pdb
