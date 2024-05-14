@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\1_villalba_stitch\1_villalba_stitch\bin\Debug\1_villalba_stitch.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\1_villalba_stitch\1_villalba_stitch\bin\Debug\1_villalba_stitch.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\1_villalba_stitch\1_villalba_stitch\bin\Debug\1_villalba_stitch.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\1_villalba_stitch\1_villalba_stitch\obj\Debug\1_villalba_stitch.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\1_villalba_stitch\1_villalba_stitch\obj\Debug\1_villalba_stitch.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\1_villalba_stitch\1_villalba_stitch\obj\Debug\1_villalba_stitch.pdb
