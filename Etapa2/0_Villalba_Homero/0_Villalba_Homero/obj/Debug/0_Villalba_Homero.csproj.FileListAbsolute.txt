@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\0_Villalba_Homero\0_Villalba_Homero\bin\Debug\0_Villalba_Homero.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\0_Villalba_Homero\0_Villalba_Homero\bin\Debug\0_Villalba_Homero.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\0_Villalba_Homero\0_Villalba_Homero\bin\Debug\0_Villalba_Homero.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\0_Villalba_Homero\0_Villalba_Homero\obj\Debug\0_Villalba_Homero.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\0_Villalba_Homero\0_Villalba_Homero\obj\Debug\0_Villalba_Homero.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\0_Villalba_Homero\0_Villalba_Homero\obj\Debug\0_Villalba_Homero.pdb
