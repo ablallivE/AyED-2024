@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\vilLALBA2024\etapa2\3_Villalba_VueltaAClases\3_Villalba_VueltaAClases\bin\Debug\3_Villalba_VueltaAClases.exe.config
+C:\Users\alumno.ET37\Desktop\vilLALBA2024\etapa2\3_Villalba_VueltaAClases\3_Villalba_VueltaAClases\bin\Debug\3_Villalba_VueltaAClases.exe
+C:\Users\alumno.ET37\Desktop\vilLALBA2024\etapa2\3_Villalba_VueltaAClases\3_Villalba_VueltaAClases\bin\Debug\3_Villalba_VueltaAClases.pdb
+C:\Users\alumno.ET37\Desktop\vilLALBA2024\etapa2\3_Villalba_VueltaAClases\3_Villalba_VueltaAClases\obj\Debug\3_Villalba_VueltaAClases.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\vilLALBA2024\etapa2\3_Villalba_VueltaAClases\3_Villalba_VueltaAClases\obj\Debug\3_Villalba_VueltaAClases.exe
+C:\Users\alumno.ET37\Desktop\vilLALBA2024\etapa2\3_Villalba_VueltaAClases\3_Villalba_VueltaAClases\obj\Debug\3_Villalba_VueltaAClases.pdb
