@@ -64,7 +64,7 @@ namespace _3_Villalba_VueltaAClases
             int porcentaje = (tpsA * 100 / TPS.Count());
             Console.WriteLine("*el promedio de los examenes fue de " + (acumulador / EXAMEN.Count()));
             Console.WriteLine("*el porcentaje de los TPS aprobados fue de " + porcentaje );
-            if (porcentaje > 75 & acumulador >= 6) 
+            if (porcentaje >= 75 & acumulador >= 6) 
             {
                 Console.WriteLine("*APROBARON MAQUINAS*");
             }
