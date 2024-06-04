@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\5_villalba_HotSale\5_villalba_HotSale\bin\Debug\5_villalba_HotSale.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\5_villalba_HotSale\5_villalba_HotSale\bin\Debug\5_villalba_HotSale.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\5_villalba_HotSale\5_villalba_HotSale\bin\Debug\5_villalba_HotSale.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\5_villalba_HotSale\5_villalba_HotSale\obj\Debug\5_villalba_HotSale.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\5_villalba_HotSale\5_villalba_HotSale\obj\Debug\5_villalba_HotSale.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\5_villalba_HotSale\5_villalba_HotSale\obj\Debug\5_villalba_HotSale.pdb
