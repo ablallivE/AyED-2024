@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\4_Villalba_PixelDreams\4_Villalba_PixelDreams\bin\Debug\4_Villalba_PixelDreams.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\4_Villalba_PixelDreams\4_Villalba_PixelDreams\bin\Debug\4_Villalba_PixelDreams.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\4_Villalba_PixelDreams\4_Villalba_PixelDreams\bin\Debug\4_Villalba_PixelDreams.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\4_Villalba_PixelDreams\4_Villalba_PixelDreams\obj\Debug\4_Villalba_PixelDreams.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\4_Villalba_PixelDreams\4_Villalba_PixelDreams\obj\Debug\4_Villalba_PixelDreams.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\4_Villalba_PixelDreams\4_Villalba_PixelDreams\obj\Debug\4_Villalba_PixelDreams.pdb
