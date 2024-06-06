@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\7_villalba_ContratacionSoft\7_villalba_ContratacionSoft\bin\Debug\7_villalba_ContratacionSoft.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\7_villalba_ContratacionSoft\7_villalba_ContratacionSoft\bin\Debug\7_villalba_ContratacionSoft.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\7_villalba_ContratacionSoft\7_villalba_ContratacionSoft\bin\Debug\7_villalba_ContratacionSoft.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\7_villalba_ContratacionSoft\7_villalba_ContratacionSoft\obj\Debug\7_villalba_ContratacionSoft.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\7_villalba_ContratacionSoft\7_villalba_ContratacionSoft\obj\Debug\7_villalba_ContratacionSoft.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\7_villalba_ContratacionSoft\7_villalba_ContratacionSoft\obj\Debug\7_villalba_ContratacionSoft.pdb
