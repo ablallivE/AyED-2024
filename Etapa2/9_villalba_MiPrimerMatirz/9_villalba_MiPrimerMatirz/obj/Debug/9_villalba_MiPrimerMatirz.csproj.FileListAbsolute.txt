@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\9_villalba_MiPrimerMatirz\9_villalba_MiPrimerMatirz\bin\Debug\9_villalba_MiPrimerMatirz.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\9_villalba_MiPrimerMatirz\9_villalba_MiPrimerMatirz\bin\Debug\9_villalba_MiPrimerMatirz.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\9_villalba_MiPrimerMatirz\9_villalba_MiPrimerMatirz\bin\Debug\9_villalba_MiPrimerMatirz.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\9_villalba_MiPrimerMatirz\9_villalba_MiPrimerMatirz\obj\Debug\9_villalba_MiPrimerMatirz.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\9_villalba_MiPrimerMatirz\9_villalba_MiPrimerMatirz\obj\Debug\9_villalba_MiPrimerMatirz.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\9_villalba_MiPrimerMatirz\9_villalba_MiPrimerMatirz\obj\Debug\9_villalba_MiPrimerMatirz.pdb
