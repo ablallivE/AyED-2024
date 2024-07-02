@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\11_villalba_Sumando\11_villalba_Sumando\bin\Debug\11_villalba_Sumando.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\11_villalba_Sumando\11_villalba_Sumando\bin\Debug\11_villalba_Sumando.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\11_villalba_Sumando\11_villalba_Sumando\bin\Debug\11_villalba_Sumando.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\11_villalba_Sumando\11_villalba_Sumando\obj\Debug\11_villalba_Sumando.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\11_villalba_Sumando\11_villalba_Sumando\obj\Debug\11_villalba_Sumando.pdb
