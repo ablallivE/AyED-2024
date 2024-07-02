@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\10_villalba_MatrizAleatorio\10_villalba_MatrizAleatorio\bin\Debug\10_villalba_MatrizAleatorio.exe.config
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\10_villalba_MatrizAleatorio\10_villalba_MatrizAleatorio\bin\Debug\10_villalba_MatrizAleatorio.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\10_villalba_MatrizAleatorio\10_villalba_MatrizAleatorio\bin\Debug\10_villalba_MatrizAleatorio.pdb
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\10_villalba_MatrizAleatorio\10_villalba_MatrizAleatorio\obj\Debug\10_villalba_MatrizAleatorio.exe
+C:\Users\alumno.ET37\Desktop\villalba2024\etapa2\10_villalba_MatrizAleatorio\10_villalba_MatrizAleatorio\obj\Debug\10_villalba_MatrizAleatorio.pdb
