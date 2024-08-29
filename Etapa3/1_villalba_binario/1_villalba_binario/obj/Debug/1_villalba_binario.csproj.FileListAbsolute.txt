@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\etapa 3\1_villalba_binario\1_villalba_binario\bin\Debug\1_villalba_binario.exe.config
+C:\Users\alumno.ET37\Desktop\etapa 3\1_villalba_binario\1_villalba_binario\bin\Debug\1_villalba_binario.exe
+C:\Users\alumno.ET37\Desktop\etapa 3\1_villalba_binario\1_villalba_binario\bin\Debug\1_villalba_binario.pdb
+C:\Users\alumno.ET37\Desktop\etapa 3\1_villalba_binario\1_villalba_binario\obj\Debug\1_villalba_binario.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa 3\1_villalba_binario\1_villalba_binario\obj\Debug\1_villalba_binario.exe
+C:\Users\alumno.ET37\Desktop\etapa 3\1_villalba_binario\1_villalba_binario\obj\Debug\1_villalba_binario.pdb
