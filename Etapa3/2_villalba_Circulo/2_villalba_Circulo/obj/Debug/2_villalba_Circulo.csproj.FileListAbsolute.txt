@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\etapa 3\2_villalba_Circulo\2_villalba_Circulo\bin\Debug\2_villalba_Circulo.exe.config
+C:\Users\alumno.ET37\Desktop\etapa 3\2_villalba_Circulo\2_villalba_Circulo\bin\Debug\2_villalba_Circulo.exe
+C:\Users\alumno.ET37\Desktop\etapa 3\2_villalba_Circulo\2_villalba_Circulo\bin\Debug\2_villalba_Circulo.pdb
+C:\Users\alumno.ET37\Desktop\etapa 3\2_villalba_Circulo\2_villalba_Circulo\obj\Debug\2_villalba_Circulo.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa 3\2_villalba_Circulo\2_villalba_Circulo\obj\Debug\2_villalba_Circulo.exe
+C:\Users\alumno.ET37\Desktop\etapa 3\2_villalba_Circulo\2_villalba_Circulo\obj\Debug\2_villalba_Circulo.pdb
