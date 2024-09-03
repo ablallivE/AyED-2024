@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\etapa3\3_villalba_pochimons2\3_villalba_pochimons2\bin\Debug\3_villalba_pochimons2.exe.config
+C:\Users\alumno.ET37\Desktop\etapa3\3_villalba_pochimons2\3_villalba_pochimons2\obj\Debug\3_villalba_pochimons2.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa3\3_villalba_pochimons2\3_villalba_pochimons2\bin\Debug\3_villalba_pochimons2.exe
+C:\Users\alumno.ET37\Desktop\etapa3\3_villalba_pochimons2\3_villalba_pochimons2\bin\Debug\3_villalba_pochimons2.pdb
+C:\Users\alumno.ET37\Desktop\etapa3\3_villalba_pochimons2\3_villalba_pochimons2\obj\Debug\3_villalba_pochimons2.exe
+C:\Users\alumno.ET37\Desktop\etapa3\3_villalba_pochimons2\3_villalba_pochimons2\obj\Debug\3_villalba_pochimons2.pdb
