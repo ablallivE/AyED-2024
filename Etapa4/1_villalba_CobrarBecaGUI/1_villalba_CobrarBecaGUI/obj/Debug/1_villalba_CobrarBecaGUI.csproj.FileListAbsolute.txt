@@ -1,0 +1,9 @@
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\bin\Debug\1_villalba_CobrarBecaGUI.exe.config
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\bin\Debug\1_villalba_CobrarBecaGUI.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\bin\Debug\1_villalba_CobrarBecaGUI.pdb
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\obj\Debug\1_villalba_CobrarBecaGUI.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\obj\Debug\_1_villalba_CobrarBecaGUI.Properties.Resources.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\obj\Debug\1_villalba_CobrarBecaGUI.csproj.GenerateResource.Cache
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\obj\Debug\1_villalba_CobrarBecaGUI.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\obj\Debug\1_villalba_CobrarBecaGUI.pdb
+C:\Users\alumno.ET37\Desktop\etapa 4\1_villalba_CobrarBecaGUI\1_villalba_CobrarBecaGUI\obj\Debug\_1_villalba_CobrarBecaGUI.monto.resources
