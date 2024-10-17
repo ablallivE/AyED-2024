@@ -1,0 +1,9 @@
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\bin\Debug\0_villalba_celcius.exe.config
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\bin\Debug\0_villalba_celcius.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\bin\Debug\0_villalba_celcius.pdb
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\obj\Debug\0_villalba_celcius.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\obj\Debug\_0_villalba_celcius.Properties.Resources.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\obj\Debug\0_villalba_celcius.csproj.GenerateResource.Cache
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\obj\Debug\0_villalba_celcius.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\obj\Debug\0_villalba_celcius.pdb
+C:\Users\alumno.ET37\Desktop\etapa 4\0_villalba_celcius\0_villalba_celcius\obj\Debug\_0_villalba_celcius.front.resources
