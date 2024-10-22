@@ -1,0 +1,9 @@
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\bin\Debug\3_villalba_terminos.exe.config
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\bin\Debug\3_villalba_terminos.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\bin\Debug\3_villalba_terminos.pdb
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\obj\Debug\3_villalba_terminos.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\obj\Debug\_3_villalba_terminos.Form1.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\obj\Debug\_3_villalba_terminos.Properties.Resources.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\obj\Debug\3_villalba_terminos.csproj.GenerateResource.Cache
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\obj\Debug\3_villalba_terminos.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\3_villalba_terminos\3_villalba_terminos\obj\Debug\3_villalba_terminos.pdb
