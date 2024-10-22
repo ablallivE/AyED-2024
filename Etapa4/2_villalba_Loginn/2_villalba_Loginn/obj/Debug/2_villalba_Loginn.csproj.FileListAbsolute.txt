@@ -1,0 +1,9 @@
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\bin\Debug\2_villalba_Loginn.exe.config
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\bin\Debug\2_villalba_Loginn.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\bin\Debug\2_villalba_Loginn.pdb
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\obj\Debug\2_villalba_Loginn.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\obj\Debug\_2_villalba_Loginn.Form1.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\obj\Debug\_2_villalba_Loginn.Properties.Resources.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\obj\Debug\2_villalba_Loginn.csproj.GenerateResource.Cache
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\obj\Debug\2_villalba_Loginn.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\2_villalba_Loginn\2_villalba_Loginn\obj\Debug\2_villalba_Loginn.pdb
