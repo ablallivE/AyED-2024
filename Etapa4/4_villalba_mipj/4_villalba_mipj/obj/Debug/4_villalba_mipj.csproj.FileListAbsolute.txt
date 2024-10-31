@@ -1,0 +1,10 @@
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\bin\Debug\4_villalba_mipj.exe.config
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\bin\Debug\4_villalba_mipj.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\bin\Debug\4_villalba_mipj.pdb
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\obj\Debug\4_villalba_mipj.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\obj\Debug\_4_villalba_mipj.Form1.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\obj\Debug\_4_villalba_mipj.Form2.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\obj\Debug\_4_villalba_mipj.Properties.Resources.resources
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\obj\Debug\4_villalba_mipj.csproj.GenerateResource.Cache
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\obj\Debug\4_villalba_mipj.exe
+C:\Users\alumno.ET37\Desktop\etapa 4\4_villalba_mipj\4_villalba_mipj\obj\Debug\4_villalba_mipj.pdb
