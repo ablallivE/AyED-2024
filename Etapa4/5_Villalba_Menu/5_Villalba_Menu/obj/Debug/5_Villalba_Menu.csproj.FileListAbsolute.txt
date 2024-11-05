@@ -1,0 +1,12 @@
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\bin\Debug\5_Villalba_Menu.exe.config
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\bin\Debug\5_Villalba_Menu.exe
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\bin\Debug\5_Villalba_Menu.pdb
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\5_Villalba_Menu.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\_5_Villalba_Menu.Form1.resources
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\_5_Villalba_Menu.Properties.Resources.resources
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\5_Villalba_Menu.csproj.GenerateResource.Cache
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\5_Villalba_Menu.exe
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\5_Villalba_Menu.pdb
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\_5_Villalba_Menu.Form2.resources
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\_5_Villalba_Menu.Form3.resources
+C:\Users\alumno.ET37\Desktop\etapa4\5_Villalba_Menu\5_Villalba_Menu\obj\Debug\_5_Villalba_Menu.Form4.resources
