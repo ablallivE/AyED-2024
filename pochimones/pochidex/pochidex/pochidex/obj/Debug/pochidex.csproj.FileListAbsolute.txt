@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\pochidex\pochidex\pochidex\bin\Debug\pochidex.exe.config
+C:\Users\alumno.ET37\Desktop\pochidex\pochidex\pochidex\bin\Debug\pochidex.exe
+C:\Users\alumno.ET37\Desktop\pochidex\pochidex\pochidex\bin\Debug\pochidex.pdb
+C:\Users\alumno.ET37\Desktop\pochidex\pochidex\pochidex\obj\Debug\pochidex.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\pochidex\pochidex\pochidex\obj\Debug\pochidex.exe
+C:\Users\alumno.ET37\Desktop\pochidex\pochidex\pochidex\obj\Debug\pochidex.pdb
