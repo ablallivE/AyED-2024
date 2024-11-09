@@ -1,6 +1,0 @@
-C:\Users\alumno.ET37\Desktop\etapa3\4_villalba_dibuvrnturas\4_villalba_dibuvrnturas\bin\Debug\4_villalba_dibuvrnturas.exe.config
-C:\Users\alumno.ET37\Desktop\etapa3\4_villalba_dibuvrnturas\4_villalba_dibuvrnturas\bin\Debug\4_villalba_dibuvrnturas.exe
-C:\Users\alumno.ET37\Desktop\etapa3\4_villalba_dibuvrnturas\4_villalba_dibuvrnturas\bin\Debug\4_villalba_dibuvrnturas.pdb
-C:\Users\alumno.ET37\Desktop\etapa3\4_villalba_dibuvrnturas\4_villalba_dibuvrnturas\obj\Debug\4_villalba_dibuvrnturas.csprojResolveAssemblyReference.cache
-C:\Users\alumno.ET37\Desktop\etapa3\4_villalba_dibuvrnturas\4_villalba_dibuvrnturas\obj\Debug\4_villalba_dibuvrnturas.exe
-C:\Users\alumno.ET37\Desktop\etapa3\4_villalba_dibuvrnturas\4_villalba_dibuvrnturas\obj\Debug\4_villalba_dibuvrnturas.pdb
