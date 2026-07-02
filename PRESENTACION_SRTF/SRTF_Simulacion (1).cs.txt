@@ -1,0 +1,427 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace SimulacionSRTF
+{
+    class Proceso
+    {
+        public string Nombre;
+        public int TiempoLlegada;
+        public int Rafaga;
+        public int TiempoRestante;
+        public int TiempoInicio;
+        public int TiempoFin;
+        public int TiempoEspera;
+        public int TiempoRetorno;
+
+        public Proceso(string nombre, int llegada, int rafaga)
+        {
+            Nombre          = nombre;
+            TiempoLlegada   = llegada;
+            Rafaga          = rafaga;
+            TiempoRestante  = rafaga;
+            TiempoInicio    = -1;
+        }
+    }
+
+    class EntradaGantt
+    {
+        public string Proceso;
+        public int Inicio;
+        public int Fin;
+    }
+
+    class Program
+    {
+        static List<Proceso>      procesos = new List<Proceso>();
+        static List<EntradaGantt> gantt    = new List<EntradaGantt>();
+        static bool simulacionEjecutada    = false;
+
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.Clear();
+            Encabezado();
+
+            bool continuar = true;
+            while (continuar)
+            {
+                MostrarMenu();
+                string opcion = Console.ReadLine();
+                if (opcion == null) opcion = "";
+                opcion = opcion.Trim();
+
+                switch (opcion)
+                {
+                    case "1": CargarEjemplo();   break;
+                    case "2": IngresarManual();  break;
+                    case "3": EjecutarSRTF();    break;
+                    case "4": MostrarResultados(); break;
+                    case "5": continuar = false; break;
+                    default:
+                        Escribir("  Opcion invalida.", ConsoleColor.Red);
+                        break;
+                }
+            }
+            Escribir("\n  Hasta luego!\n", ConsoleColor.Cyan);
+        }
+
+        // ── MENU ──────────────────────────────────────────────────────────
+
+        static void MostrarMenu()
+        {
+            Console.WriteLine();
+            Escribir("  ┌─────────────────────────────────────┐", ConsoleColor.DarkCyan);
+            Escribir("  │          MENU PRINCIPAL             │", ConsoleColor.DarkCyan);
+            Escribir("  ├─────────────────────────────────────┤", ConsoleColor.DarkCyan);
+            Escribir("  │  1. Cargar ejemplo predefinido      │", ConsoleColor.White);
+            Escribir("  │  2. Ingresar procesos manualmente   │", ConsoleColor.White);
+            Escribir("  │  3. Ejecutar simulacion SRTF        │", ConsoleColor.White);
+            Escribir("  │  4. Ver resultados                  │", ConsoleColor.White);
+            Escribir("  │  5. Salir                           │", ConsoleColor.White);
+            Escribir("  └─────────────────────────────────────┘", ConsoleColor.DarkCyan);
+            Console.Write("  Seleccione una opcion: ");
+        }
+
+        // ── CARGA DE DATOS ────────────────────────────────────────────────
+
+        static void CargarEjemplo()
+        {
+            Reiniciar();
+            procesos.Add(new Proceso("P1", 0, 8));
+            procesos.Add(new Proceso("P2", 1, 4));
+            procesos.Add(new Proceso("P3", 2, 9));
+            procesos.Add(new Proceso("P4", 3, 5));
+            Escribir("\n  Ejemplo cargado: P1(0,8) | P2(1,4) | P3(2,9) | P4(3,5)", ConsoleColor.Green);
+            MostrarTablaInicial();
+        }
+
+        static void IngresarManual()
+        {
+            Reiniciar();
+            Console.Write("\n  Cuantos procesos desea ingresar? ");
+            int n;
+            if (!int.TryParse(Console.ReadLine(), out n) || n < 1)
+            {
+                Escribir("  Numero invalido.", ConsoleColor.Red);
+                return;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine("\n  -- Proceso " + (i + 1) + " --");
+                Console.Write("   Nombre         : ");
+                string nombre = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(nombre)) nombre = "P" + (i + 1);
+                int llegada = LeerEntero("   Tiempo llegada : ", 0);
+                int rafaga  = LeerEntero("   Rafaga (burst) : ", 1);
+                procesos.Add(new Proceso(nombre, llegada, rafaga));
+            }
+
+            Escribir("\n  Procesos ingresados correctamente.", ConsoleColor.Green);
+            MostrarTablaInicial();
+        }
+
+        static void Reiniciar()
+        {
+            procesos.Clear();
+            gantt.Clear();
+            simulacionEjecutada = false;
+        }
+
+        // ── ALGORITMO SRTF ────────────────────────────────────────────────
+
+        static void EjecutarSRTF()
+        {
+            if (procesos.Count == 0)
+            {
+                Escribir("\n  Primero cargue procesos (opcion 1 o 2).", ConsoleColor.Yellow);
+                return;
+            }
+
+            // Reiniciar estado de cada proceso
+            foreach (Proceso p in procesos)
+            {
+                p.TiempoRestante = p.Rafaga;
+                p.TiempoInicio   = -1;
+                p.TiempoFin      = 0;
+            }
+            gantt.Clear();
+
+            int tiempoActual = 0;
+            int completados  = 0;
+            int total        = procesos.Count;
+
+            Console.WriteLine("\n  Ejecutando SRTF...\n");
+            Console.WriteLine("  Tiempo   Proceso   T.Restante");
+            Console.WriteLine("  ──────────────────────────────");
+
+            while (completados < total)
+            {
+                // Filtrar procesos disponibles
+                List<Proceso> disponibles = new List<Proceso>();
+                foreach (Proceso p in procesos)
+                {
+                    if (p.TiempoLlegada <= tiempoActual && p.TiempoRestante > 0)
+                        disponibles.Add(p);
+                }
+
+                if (disponibles.Count == 0)
+                {
+                    AgregarGantt("IDLE", tiempoActual, tiempoActual + 1);
+                    tiempoActual++;
+                    continue;
+                }
+
+                // Elegir el de menor tiempo restante
+                Proceso actual = disponibles[0];
+                foreach (Proceso p in disponibles)
+                {
+                    if (p.TiempoRestante < actual.TiempoRestante)
+                        actual = p;
+                    else if (p.TiempoRestante == actual.TiempoRestante && p.TiempoLlegada < actual.TiempoLlegada)
+                        actual = p;
+                }
+
+                if (actual.TiempoInicio == -1)
+                    actual.TiempoInicio = tiempoActual;
+
+                // Log paso a paso
+                Console.Write("  [" + tiempoActual.ToString().PadLeft(3) + "]   ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write(actual.Nombre.PadRight(8));
+                Console.ResetColor();
+                Console.WriteLine("  rem=" + actual.TiempoRestante);
+
+                AgregarGantt(actual.Nombre, tiempoActual, tiempoActual + 1);
+
+                actual.TiempoRestante--;
+                tiempoActual++;
+
+                if (actual.TiempoRestante == 0)
+                {
+                    actual.TiempoFin     = tiempoActual;
+                    actual.TiempoRetorno = actual.TiempoFin - actual.TiempoLlegada;
+                    actual.TiempoEspera  = actual.TiempoRetorno - actual.Rafaga;
+                    completados++;
+                    Console.Write("          ");
+                    Escribir("✔ " + actual.Nombre + " termino en t=" + tiempoActual, ConsoleColor.Green);
+                }
+            }
+
+            simulacionEjecutada = true;
+            Escribir("\n  Simulacion completada.", ConsoleColor.Green);
+            MostrarGantt();
+        }
+
+        static void AgregarGantt(string nombre, int inicio, int fin)
+        {
+            if (gantt.Count > 0 && gantt[gantt.Count - 1].Proceso == nombre)
+            {
+                gantt[gantt.Count - 1].Fin = fin;
+            }
+            else
+            {
+                EntradaGantt e = new EntradaGantt();
+                e.Proceso = nombre;
+                e.Inicio  = inicio;
+                e.Fin     = fin;
+                gantt.Add(e);
+            }
+        }
+
+        // ── RESULTADOS ────────────────────────────────────────────────────
+
+        static void MostrarResultados()
+        {
+            if (!simulacionEjecutada)
+            {
+                Escribir("\n  Primero ejecute la simulacion (opcion 3).", ConsoleColor.Yellow);
+                return;
+            }
+
+            Console.WriteLine();
+            Escribir("  ══════════════════════════════════════════════════", ConsoleColor.Cyan);
+            Escribir("  RESULTADOS DETALLADOS – SRTF", ConsoleColor.Cyan);
+            Escribir("  ══════════════════════════════════════════════════", ConsoleColor.Cyan);
+
+            Console.WriteLine("\n  {0,-10} {1,8} {2,8} {3,8} {4,6} {5,9} {6,8}",
+                "Proceso", "Llegada", "Rafaga", "Inicio", "Fin", "Retorno", "Espera");
+            Console.WriteLine("  " + new string('-', 62));
+
+            double sumEspera  = 0;
+            double sumRetorno = 0;
+
+            List<Proceso> ordenados = new List<Proceso>(procesos);
+            ordenados.Sort((a, b) => a.TiempoLlegada.CompareTo(b.TiempoLlegada));
+
+            foreach (Proceso p in ordenados)
+            {
+                Console.WriteLine("  {0,-10} {1,8} {2,8} {3,8} {4,6} {5,9} {6,8}",
+                    p.Nombre, p.TiempoLlegada, p.Rafaga,
+                    p.TiempoInicio, p.TiempoFin, p.TiempoRetorno, p.TiempoEspera);
+                sumEspera  += p.TiempoEspera;
+                sumRetorno += p.TiempoRetorno;
+            }
+
+            Console.WriteLine("  " + new string('-', 62));
+            double n = procesos.Count;
+            Console.WriteLine();
+            Console.Write("  Tiempo de espera promedio  : ");
+            Escribir((sumEspera / n).ToString("F2") + " ms", ConsoleColor.Cyan);
+            Console.Write("  Tiempo de retorno promedio : ");
+            Escribir((sumRetorno / n).ToString("F2") + " ms", ConsoleColor.Yellow);
+
+            MostrarGantt();
+        }
+
+        // ── GANTT ─────────────────────────────────────────────────────────
+
+        static void MostrarGantt()
+        {
+            if (gantt.Count == 0) return;
+
+            // Cada unidad de tiempo ocupa ANCHO_CELDA caracteres dentro del bloque
+            const int ANCHO_CELDA = 6;
+
+            char SEP      = (char)179;   // │  separador vertical
+            char ESQUINA  = (char)190;   // ╛  esquina inferior derecha (ASCII 190)
+            char LINEA_H  = (char)196;   // ─  línea horizontal
+
+            ConsoleColor[] colores = new ConsoleColor[]
+            {
+                ConsoleColor.Cyan, ConsoleColor.Yellow, ConsoleColor.Green,
+                ConsoleColor.Magenta, ConsoleColor.Red, ConsoleColor.White
+            };
+            Dictionary<string, ConsoleColor> mapa = new Dictionary<string, ConsoleColor>();
+            int ci = 0;
+
+            // Calcular ancho de cada bloque en caracteres
+            List<int> anchos = new List<int>();
+            foreach (EntradaGantt e in gantt)
+            {
+                int duracion = e.Fin - e.Inicio;
+                anchos.Add(duracion * ANCHO_CELDA);
+            }
+
+            Console.WriteLine();
+            Escribir("  ── Diagrama de Gantt ─────────────────────────────", ConsoleColor.DarkCyan);
+            Console.WriteLine();
+
+            // ── FILA SUPERIOR: ┌───┬───┐ ──────────────────────────────────
+            Console.Write("  " + (char)218);  // ┌
+            for (int i = 0; i < gantt.Count; i++)
+            {
+                Console.Write(new string(LINEA_H, anchos[i]));
+                if (i < gantt.Count - 1)
+                    Console.Write((char)194); // ┬
+            }
+            Console.WriteLine((char)191);     // ┐
+
+            // ── FILA PROCESOS: │  P1  │  P2  │ ───────────────────────────
+            Console.Write("  " + SEP);
+            for (int i = 0; i < gantt.Count; i++)
+            {
+                EntradaGantt e = gantt[i];
+                if (!mapa.ContainsKey(e.Proceso))
+                {
+                    mapa[e.Proceso] = colores[ci % colores.Length];
+                    ci++;
+                }
+                // Centrar el nombre del proceso dentro del bloque
+                string nombre = e.Proceso;
+                int espacioTotal = anchos[i] - nombre.Length;
+                int izq = espacioTotal / 2;
+                int der = espacioTotal - izq;
+                string centrado = new string(' ', izq) + nombre + new string(' ', der);
+
+                Console.ForegroundColor = mapa[e.Proceso];
+                Console.Write(centrado);
+                Console.ResetColor();
+                Console.Write(SEP);
+            }
+            Console.WriteLine();
+
+            // ── FILA INFERIOR con ESQUINA ASCII 190: ╛ ───────────────────
+            Console.Write("  " + (char)192);  // └
+            for (int i = 0; i < gantt.Count; i++)
+            {
+                Console.Write(new string(LINEA_H, anchos[i]));
+                if (i < gantt.Count - 1)
+                    Console.Write((char)193); // ┴
+            }
+            Console.WriteLine(ESQUINA);       // ╛  (ASCII 190)
+
+            // ── FILA DE TIEMPOS alineados bajo cada separador ─────────────
+            // Los separadores están en las posiciones: 2 + 0, 2 + anchos[0], 2 + anchos[0]+anchos[1], ...
+            // Construimos la línea como un arreglo de chars para posicionar exactamente
+            int longitudTotal = 2; // margen "  "
+            foreach (int a in anchos) longitudTotal += a + 1; // +1 por el separador
+            longitudTotal += 2; // último número puede tener 2 dígitos
+
+            char[] lineaTiempos = new char[longitudTotal + 5];
+            for (int k = 0; k < lineaTiempos.Length; k++) lineaTiempos[k] = ' ';
+
+            int posicion = 2; // empieza tras el margen "  "
+            for (int i = 0; i < gantt.Count; i++)
+            {
+                // Escribir el tiempo de inicio en la posición del separador izquierdo
+                string numStr = gantt[i].Inicio.ToString();
+                for (int c = 0; c < numStr.Length && posicion + c < lineaTiempos.Length; c++)
+                    lineaTiempos[posicion + c] = numStr[c];
+
+                posicion += anchos[i] + 1; // avanzar al siguiente separador
+            }
+            // Último tiempo (fin del último bloque)
+            string ultNum = gantt[gantt.Count - 1].Fin.ToString();
+            for (int c = 0; c < ultNum.Length && posicion + c < lineaTiempos.Length; c++)
+                lineaTiempos[posicion + c] = ultNum[c];
+
+            Console.Write("  ");
+            Console.WriteLine(new string(lineaTiempos).TrimEnd());
+            Console.WriteLine();
+        }
+
+        // ── UTILIDADES ────────────────────────────────────────────────────
+
+        static void Encabezado()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine();
+            Console.WriteLine("  ╔═══════════════════════════════════════════════════╗");
+            Console.WriteLine("  ║     SIMULACION SRTF – Shortest Remaining Time     ║");
+            Console.WriteLine("  ║         Programacion de Redes · 6to Anio          ║");
+            Console.WriteLine("  ╚═══════════════════════════════════════════════════╝");
+            Console.ResetColor();
+        }
+
+        static void MostrarTablaInicial()
+        {
+            Console.WriteLine();
+            Console.WriteLine("  {0,-10} {1,8} {2,8}", "Proceso", "Llegada", "Rafaga");
+            Console.WriteLine("  " + new string('-', 28));
+            foreach (Proceso p in procesos)
+                Console.WriteLine("  {0,-10} {1,8} {2,8}", p.Nombre, p.TiempoLlegada, p.Rafaga);
+        }
+
+        static void Escribir(string texto, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.WriteLine(texto);
+            Console.ResetColor();
+        }
+
+        static int LeerEntero(string prompt, int minimo)
+        {
+            while (true)
+            {
+                Console.Write(prompt);
+                int v;
+                if (int.TryParse(Console.ReadLine(), out v) && v >= minimo)
+                    return v;
+                Escribir("  Ingrese un entero >= " + minimo, ConsoleColor.Red);
+            }
+        }
+    }
+}
